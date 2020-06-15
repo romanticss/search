@@ -1,0 +1,6 @@
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/build/CMakeFiles/rebuild_cache.dir
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/build/CMakeFiles/edit_cache.dir
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/build/CMakeFiles/prefix_search.dir
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/build/library/CMakeFiles/rebuild_cache.dir
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/build/library/CMakeFiles/edit_cache.dir
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/build/library/CMakeFiles/struct.dir

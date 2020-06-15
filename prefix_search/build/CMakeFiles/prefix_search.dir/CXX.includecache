@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/library/trie.h
+unordered_map
+-
+string
+-
+vector
+-
+
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/main.cpp
+iostream
+-
+library/trie.h
+/Users/maoyingyan/yanmaoying/github/search/prefix_search/library/trie.h
+

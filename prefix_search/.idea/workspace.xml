@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="prefix_search" targetName="library_3rd" />
+      <config projectName="prefix_search" targetName="struct" />
+      <config projectName="prefix_search" targetName="prefix_search" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fbbdcd5-7b8d-4c49-9b82-866e51ee27b0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1cUV9flqF7Sto7MnROIzm8yxQuP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="CMake 应用程序.prefix_search">
+    <configuration name="library_3rd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prefix_search" TARGET_NAME="library_3rd" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prefix_search" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prefix_search" TARGET_NAME="prefix_search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="prefix_search" RUN_TARGET_NAME="prefix_search">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="struct" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="prefix_search" TARGET_NAME="struct" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.prefix_search" />
+      <item itemvalue="CMake 应用程序.struct" />
+      <item itemvalue="CMake 应用程序.library_3rd" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fbbdcd5-7b8d-4c49-9b82-866e51ee27b0" name="Default Changelist" comment="" />
+      <created>1590583009206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590583009206</updated>
+      <workItem from="1590583014892" duration="56000" />
+      <workItem from="1590645287921" duration="30000" />
+      <workItem from="1590933117556" duration="494000" />
+      <workItem from="1590935336958" duration="241000" />
+      <workItem from="1590936042605" duration="637000" />
+      <workItem from="1590937051783" duration="61000" />
+      <workItem from="1591514989570" duration="141000" />
+      <workItem from="1591515295326" duration="75000" />
+      <workItem from="1591515478742" duration="830000" />
+      <workItem from="1591623744456" duration="1975000" />
+      <workItem from="1591692226483" duration="1645000" />
+      <workItem from="1591776874246" duration="568000" />
+      <workItem from="1591779906904" duration="5483000" />
+      <workItem from="1591789901024" duration="3849000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591776909367">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1591776909367" />
+    <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1591515910572" />
+    <state x="474" y="198" key="EnvironmentVariablesDialog" timestamp="1591515976314">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="474" y="198" key="EnvironmentVariablesDialog/0.23.1440.806@0.23.1440.806" timestamp="1591515976314" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1591693929278">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1591693929278" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1591516430194" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1591693929277">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1591693929277" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1591516430193" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1591693929277">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1591693929277" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1591516430192" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1591693929278">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1591693929278" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1591516430193" />
+    <state x="221" y="65" key="SettingsEditor" timestamp="1591694031792">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1591694031791" />
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1591516340238" />
+    <state x="397" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1591789901182">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1591789901182" />
+    <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1591515479700" />
+    <state x="385" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1590936296786">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="385" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1590936296786" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/library_3rd/Hanz2Piny.cpp</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

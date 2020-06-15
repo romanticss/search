@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libstruct.a  CMakeFiles/struct.dir/trie.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libstruct.a
