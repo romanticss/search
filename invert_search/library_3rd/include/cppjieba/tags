@@ -1,0 +1,347 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+B	HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon1
+CPPJIBEA_HMMSEGMENT_H	HMMSegment.hpp	2;"	d
+CPPJIEAB_JIEBA_H	Jieba.hpp	2;"	d
+CPPJIEBA_DICT_TRIE_HPP	DictTrie.hpp	2;"	d
+CPPJIEBA_FULLSEGMENT_H	FullSegment.hpp	2;"	d
+CPPJIEBA_HMMMODEL_H	HMMModel.hpp	2;"	d
+CPPJIEBA_KEYWORD_EXTRACTOR_H	KeywordExtractor.hpp	2;"	d
+CPPJIEBA_MIXSEGMENT_H	MixSegment.hpp	2;"	d
+CPPJIEBA_MPSEGMENT_H	MPSegment.hpp	2;"	d
+CPPJIEBA_POS_TAGGING_H	PosTagger.hpp	2;"	d
+CPPJIEBA_PRE_FILTER_H	PreFilter.hpp	2;"	d
+CPPJIEBA_QUERYSEGMENT_H	QuerySegment.hpp	2;"	d
+CPPJIEBA_SEGMENTBASE_H	SegmentBase.hpp	2;"	d
+CPPJIEBA_SEGMENTTAGGED_H	SegmentTagged.hpp	2;"	d
+CPPJIEBA_TEXTRANK_EXTRACTOR_H	TextRankExtractor.hpp	2;"	d
+CPPJIEBA_TRIE_HPP	Trie.hpp	2;"	d
+CPPJIEBA_UNICODE_H	Unicode.hpp	2;"	d
+CalcDP	MPSegment.hpp	/^  void CalcDP(vector<Dag>& dags) const {$/;"	f	class:cppjieba::MPSegment
+CalcFreqSum	DictTrie.hpp	/^  double CalcFreqSum(const vector<DictUnit>& node_infos) const {$/;"	f	class:cppjieba::DictTrie
+CalculateWeight	DictTrie.hpp	/^  void CalculateWeight(vector<DictUnit>& node_infos, double sum) const {$/;"	f	class:cppjieba::DictTrie
+Compare	KeywordExtractor.hpp	/^  static bool Compare(const Word& lhs, const Word& rhs) {$/;"	f	class:cppjieba::KeywordExtractor
+Compare	TextRankExtractor.hpp	/^    static bool Compare(const Word &x,const Word &y){$/;"	f	class:cppjieba::TextRankExtractor
+CreateTrie	DictTrie.hpp	/^  void CreateTrie(const vector<DictUnit>& dictUnits) {$/;"	f	class:cppjieba::DictTrie
+CreateTrie	Trie.hpp	/^  void CreateTrie(const vector<Unicode>& keys, const vector<const DictUnit*>& valuePointers) {$/;"	f	class:cppjieba::Trie
+Cut	FullSegment.hpp	/^  void Cut(RuneStrArray::const_iterator begin, $/;"	f	class:cppjieba::FullSegment
+Cut	FullSegment.hpp	/^  void Cut(const string& sentence, $/;"	f	class:cppjieba::FullSegment
+Cut	HMMSegment.hpp	/^  void Cut(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end, vector<WordRange>& res) const {$/;"	f	class:cppjieba::HMMSegment
+Cut	HMMSegment.hpp	/^  void Cut(const string& sentence, $/;"	f	class:cppjieba::HMMSegment
+Cut	Jieba.hpp	/^  void Cut(const string& sentence, vector<Word>& words, bool hmm = true) const {$/;"	f	class:cppjieba::Jieba
+Cut	Jieba.hpp	/^  void Cut(const string& sentence, vector<string>& words, bool hmm = true) const {$/;"	f	class:cppjieba::Jieba
+Cut	MPSegment.hpp	/^  void Cut(RuneStrArray::const_iterator begin,$/;"	f	class:cppjieba::MPSegment
+Cut	MPSegment.hpp	/^  void Cut(const string& sentence, $/;"	f	class:cppjieba::MPSegment
+Cut	MPSegment.hpp	/^  void Cut(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::MPSegment
+Cut	MPSegment.hpp	/^  void Cut(const string& sentence,$/;"	f	class:cppjieba::MPSegment
+Cut	MixSegment.hpp	/^  void Cut(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end, vector<WordRange>& res, bool hmm) const {$/;"	f	class:cppjieba::MixSegment
+Cut	MixSegment.hpp	/^  void Cut(const string& sentence, vector<Word>& words, bool hmm = true) const {$/;"	f	class:cppjieba::MixSegment
+Cut	MixSegment.hpp	/^  void Cut(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::MixSegment
+Cut	MixSegment.hpp	/^  void Cut(const string& sentence, vector<string>& words, bool hmm) const {$/;"	f	class:cppjieba::MixSegment
+Cut	QuerySegment.hpp	/^  void Cut(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end, vector<WordRange>& res, bool hmm) const {$/;"	f	class:cppjieba::QuerySegment
+Cut	QuerySegment.hpp	/^  void Cut(const string& sentence, vector<Word>& words, bool hmm = true) const {$/;"	f	class:cppjieba::QuerySegment
+Cut	QuerySegment.hpp	/^  void Cut(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::QuerySegment
+Cut	QuerySegment.hpp	/^  void Cut(const string& sentence, vector<string>& words, bool hmm) const {$/;"	f	class:cppjieba::QuerySegment
+CutAll	Jieba.hpp	/^  void CutAll(const string& sentence, vector<Word>& words) const {$/;"	f	class:cppjieba::Jieba
+CutAll	Jieba.hpp	/^  void CutAll(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::Jieba
+CutByDag	MPSegment.hpp	/^  void CutByDag(RuneStrArray::const_iterator begin, $/;"	f	class:cppjieba::MPSegment
+CutForSearch	Jieba.hpp	/^  void CutForSearch(const string& sentence, vector<Word>& words, bool hmm = true) const {$/;"	f	class:cppjieba::Jieba
+CutForSearch	Jieba.hpp	/^  void CutForSearch(const string& sentence, vector<string>& words, bool hmm = true) const {$/;"	f	class:cppjieba::Jieba
+CutHMM	Jieba.hpp	/^  void CutHMM(const string& sentence, vector<Word>& words) const {$/;"	f	class:cppjieba::Jieba
+CutHMM	Jieba.hpp	/^  void CutHMM(const string& sentence, vector<string>& words) const {$/;"	f	class:cppjieba::Jieba
+CutSmall	Jieba.hpp	/^  void CutSmall(const string& sentence, vector<Word>& words, size_t max_word_len) const {$/;"	f	class:cppjieba::Jieba
+CutSmall	Jieba.hpp	/^  void CutSmall(const string& sentence, vector<string>& words, size_t max_word_len) const {$/;"	f	class:cppjieba::Jieba
+DICT_COLUMN_NUM	DictTrie.hpp	/^const size_t DICT_COLUMN_NUM = 3;$/;"	m	namespace:cppjieba
+Dag	Trie.hpp	/^  Dag():runestr(), pInfo(NULL), weight(0.0), nextPos(0) {$/;"	f	struct:cppjieba::Dag
+Dag	Trie.hpp	/^struct Dag {$/;"	s	namespace:cppjieba
+DecodeRuneInString	Unicode.hpp	/^inline RuneStrLite DecodeRuneInString(const char* str, size_t len) {$/;"	f	namespace:cppjieba
+DecodeRunesInString	Unicode.hpp	/^inline Unicode DecodeRunesInString(const string& s) {$/;"	f	namespace:cppjieba
+DecodeRunesInString	Unicode.hpp	/^inline bool DecodeRunesInString(const char* s, size_t len, RuneStrArray& runes) {$/;"	f	namespace:cppjieba
+DecodeRunesInString	Unicode.hpp	/^inline bool DecodeRunesInString(const char* s, size_t len, Unicode& unicode) {$/;"	f	namespace:cppjieba
+DecodeRunesInString	Unicode.hpp	/^inline bool DecodeRunesInString(const string& s, RuneStrArray& runes) {$/;"	f	namespace:cppjieba
+DecodeRunesInString	Unicode.hpp	/^inline bool DecodeRunesInString(const string& s, Unicode& unicode) {$/;"	f	namespace:cppjieba
+DeleteNode	Trie.hpp	/^  void DeleteNode(TrieNode* node) {$/;"	f	class:cppjieba::Trie
+DictTrie	DictTrie.hpp	/^  DictTrie(const string& dict_path, const string& user_dict_paths = "", UserWordWeightOption user_word_weight_opt = WordWeightMax) {$/;"	f	class:cppjieba::DictTrie
+DictTrie	DictTrie.hpp	/^class DictTrie {$/;"	c	namespace:cppjieba
+DictUnit	Trie.hpp	/^struct DictUnit {$/;"	s	namespace:cppjieba
+E	HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon1
+Edges	TextRankExtractor.hpp	/^      typedef std::map<Node,double> Edges;$/;"	t	class:cppjieba::TextRankExtractor::WordGraph
+EmitProbMap	HMMModel.hpp	/^typedef unordered_map<Rune, double> EmitProbMap;$/;"	t	namespace:cppjieba
+Extract	KeywordExtractor.hpp	/^  void Extract(const string& sentence, vector<Word>& keywords, size_t topN) const {$/;"	f	class:cppjieba::KeywordExtractor
+Extract	KeywordExtractor.hpp	/^  void Extract(const string& sentence, vector<pair<string, double> >& keywords, size_t topN) const {$/;"	f	class:cppjieba::KeywordExtractor
+Extract	KeywordExtractor.hpp	/^  void Extract(const string& sentence, vector<string>& keywords, size_t topN) const {$/;"	f	class:cppjieba::KeywordExtractor
+Extract	TextRankExtractor.hpp	/^    void Extract(const string& sentence, vector<Word>& keywords, size_t topN, size_t span=5,size_t rankTime=10) const {$/;"	f	class:cppjieba::TextRankExtractor
+Extract	TextRankExtractor.hpp	/^    void Extract(const string& sentence, vector<pair<string, double> >& keywords, size_t topN) const {$/;"	f	class:cppjieba::TextRankExtractor
+Extract	TextRankExtractor.hpp	/^    void Extract(const string& sentence, vector<string>& keywords, size_t topN) const {$/;"	f	class:cppjieba::TextRankExtractor
+Find	DictTrie.hpp	/^  bool Find(const string& word)$/;"	f	class:cppjieba::DictTrie
+Find	DictTrie.hpp	/^  const DictUnit* Find(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end) const {$/;"	f	class:cppjieba::DictTrie
+Find	DictTrie.hpp	/^  void Find(RuneStrArray::const_iterator begin, $/;"	f	class:cppjieba::DictTrie
+Find	Jieba.hpp	/^  bool Find(const string& word)$/;"	f	class:cppjieba::Jieba
+Find	Trie.hpp	/^  const DictUnit* Find(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end) const {$/;"	f	class:cppjieba::Trie
+Find	Trie.hpp	/^  void Find(RuneStrArray::const_iterator begin, $/;"	f	class:cppjieba::Trie
+FullSegment	FullSegment.hpp	/^  FullSegment(const DictTrie* dictTrie)$/;"	f	class:cppjieba::FullSegment
+FullSegment	FullSegment.hpp	/^  FullSegment(const string& dictPath) {$/;"	f	class:cppjieba::FullSegment
+FullSegment	FullSegment.hpp	/^class FullSegment: public SegmentBase {$/;"	c	namespace:cppjieba
+GetDictTrie	Jieba.hpp	/^  const DictTrie* GetDictTrie() const {$/;"	f	class:cppjieba::Jieba
+GetDictTrie	MPSegment.hpp	/^  const DictTrie* GetDictTrie() const {$/;"	f	class:cppjieba::MPSegment
+GetDictTrie	MixSegment.hpp	/^  const DictTrie* GetDictTrie() const {$/;"	f	class:cppjieba::MixSegment
+GetEmitProb	HMMModel.hpp	/^  double GetEmitProb(const EmitProbMap* ptMp, Rune key, $/;"	f	struct:cppjieba::HMMModel
+GetHMMModel	Jieba.hpp	/^  const HMMModel* GetHMMModel() const {$/;"	f	class:cppjieba::Jieba
+GetLine	HMMModel.hpp	/^  bool GetLine(ifstream& ifile, string& line) {$/;"	f	struct:cppjieba::HMMModel
+GetMinWeight	DictTrie.hpp	/^  double GetMinWeight() const {$/;"	f	class:cppjieba::DictTrie
+GetStringFromRunes	Unicode.hpp	/^inline string GetStringFromRunes(const string& s, RuneStrArray::const_iterator left, RuneStrArray::const_iterator right) {$/;"	f	namespace:cppjieba
+GetStringsFromWords	Unicode.hpp	/^inline void GetStringsFromWords(const vector<Word>& words, vector<string>& strs) {$/;"	f	namespace:cppjieba
+GetWordFromRunes	Unicode.hpp	/^inline Word GetWordFromRunes(const string& s, RuneStrArray::const_iterator left, RuneStrArray::const_iterator right) {$/;"	f	namespace:cppjieba
+GetWordsFromWordRanges	Unicode.hpp	/^inline vector<Word> GetWordsFromWordRanges(const string& s, const vector<WordRange>& wrs) {$/;"	f	namespace:cppjieba
+GetWordsFromWordRanges	Unicode.hpp	/^inline void GetWordsFromWordRanges(const string& s, const vector<WordRange>& wrs, vector<Word>& words) {$/;"	f	namespace:cppjieba
+Graph	TextRankExtractor.hpp	/^      typedef std::map<Node,Edges> Graph;$/;"	t	class:cppjieba::TextRankExtractor::WordGraph
+HMMModel	HMMModel.hpp	/^  HMMModel(const string& modelPath) {$/;"	f	struct:cppjieba::HMMModel
+HMMModel	HMMModel.hpp	/^struct HMMModel {$/;"	s	namespace:cppjieba
+HMMSegment	HMMSegment.hpp	/^  HMMSegment(const HMMModel* model) $/;"	f	class:cppjieba::HMMSegment
+HMMSegment	HMMSegment.hpp	/^  HMMSegment(const string& filePath)$/;"	f	class:cppjieba::HMMSegment
+HMMSegment	HMMSegment.hpp	/^class HMMSegment: public SegmentBase {$/;"	c	namespace:cppjieba
+HasNext	PreFilter.hpp	/^  bool HasNext() const {$/;"	f	class:cppjieba::PreFilter
+Init	DictTrie.hpp	/^  void Init(const string& dict_path, const string& user_dict_paths, UserWordWeightOption user_word_weight_opt) {$/;"	f	class:cppjieba::DictTrie
+InserUserDictNode	DictTrie.hpp	/^  void InserUserDictNode(const string& line) {$/;"	f	class:cppjieba::DictTrie
+InsertNode	Trie.hpp	/^  void InsertNode(const Unicode& key, const DictUnit* ptValue) {$/;"	f	class:cppjieba::Trie
+InsertUserWord	DictTrie.hpp	/^  bool InsertUserWord(const string& word, const string& tag = UNKNOWN_TAG) {$/;"	f	class:cppjieba::DictTrie
+InsertUserWord	DictTrie.hpp	/^  bool InsertUserWord(const string& word,int freq, const string& tag = UNKNOWN_TAG) {$/;"	f	class:cppjieba::DictTrie
+InsertUserWord	Jieba.hpp	/^  bool InsertUserWord(const string& word, const string& tag = UNKNOWN_TAG) {$/;"	f	class:cppjieba::Jieba
+InsertUserWord	Jieba.hpp	/^  bool InsertUserWord(const string& word,int freq, const string& tag = UNKNOWN_TAG) {$/;"	f	class:cppjieba::Jieba
+InternalCut	HMMSegment.hpp	/^  void InternalCut(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end, vector<WordRange>& res) const {$/;"	f	class:cppjieba::HMMSegment
+IsAllAscii	QuerySegment.hpp	/^  bool IsAllAscii(const Unicode& s) const {$/;"	f	class:cppjieba::QuerySegment
+IsAllAscii	Unicode.hpp	/^  bool IsAllAscii() const {$/;"	f	struct:cppjieba::WordRange
+IsSingleWord	Unicode.hpp	/^inline bool IsSingleWord(const string& str) {$/;"	f	namespace:cppjieba
+IsUserDictSingleChineseWord	DictTrie.hpp	/^  bool IsUserDictSingleChineseWord(const Rune& word) const {$/;"	f	class:cppjieba::DictTrie
+IsUserDictSingleChineseWord	MPSegment.hpp	/^  bool IsUserDictSingleChineseWord(const Rune& value) const {$/;"	f	class:cppjieba::MPSegment
+Jieba	Jieba.hpp	/^  Jieba(const string& dict_path, $/;"	f	class:cppjieba::Jieba
+Jieba	Jieba.hpp	/^class Jieba {$/;"	c	namespace:cppjieba
+KeywordExtractor	KeywordExtractor.hpp	/^  KeywordExtractor(const DictTrie* dictTrie, $/;"	f	class:cppjieba::KeywordExtractor
+KeywordExtractor	KeywordExtractor.hpp	/^  KeywordExtractor(const string& dictPath, $/;"	f	class:cppjieba::KeywordExtractor
+KeywordExtractor	KeywordExtractor.hpp	/^class KeywordExtractor {$/;"	c	namespace:cppjieba
+Length	Unicode.hpp	/^  size_t Length() const {$/;"	f	struct:cppjieba::WordRange
+LoadDict	DictTrie.hpp	/^  void LoadDict(const string& filePath) {$/;"	f	class:cppjieba::DictTrie
+LoadEmitProb	HMMModel.hpp	/^  bool LoadEmitProb(const string& line, EmitProbMap& mp) {$/;"	f	struct:cppjieba::HMMModel
+LoadIdfDict	KeywordExtractor.hpp	/^  void LoadIdfDict(const string& idfPath) {$/;"	f	class:cppjieba::KeywordExtractor
+LoadModel	HMMModel.hpp	/^  void LoadModel(const string& filePath) {$/;"	f	struct:cppjieba::HMMModel
+LoadStopWordDict	KeywordExtractor.hpp	/^  void LoadStopWordDict(const string& filePath) {$/;"	f	class:cppjieba::KeywordExtractor
+LoadStopWordDict	TextRankExtractor.hpp	/^    void LoadStopWordDict(const string& filePath) {$/;"	f	class:cppjieba::TextRankExtractor
+LoadUserDict	DictTrie.hpp	/^   void LoadUserDict(const set<string>& buf) {$/;"	f	class:cppjieba::DictTrie
+LoadUserDict	DictTrie.hpp	/^  void LoadUserDict(const string& filePaths) {$/;"	f	class:cppjieba::DictTrie
+LoadUserDict	DictTrie.hpp	/^  void LoadUserDict(const vector<string>& buf) {$/;"	f	class:cppjieba::DictTrie
+LoadUserDict	Jieba.hpp	/^  void LoadUserDict(const set<string>& buf)  {$/;"	f	class:cppjieba::Jieba
+LoadUserDict	Jieba.hpp	/^  void LoadUserDict(const string& path)  {$/;"	f	class:cppjieba::Jieba
+LoadUserDict	Jieba.hpp	/^  void LoadUserDict(const vector<string>& buf)  {$/;"	f	class:cppjieba::Jieba
+LocWord	Jieba.hpp	/^  struct LocWord {$/;"	s	class:cppjieba::Jieba
+LookupTag	Jieba.hpp	/^  string LookupTag(const string &str) const {$/;"	f	class:cppjieba::Jieba
+LookupTag	MixSegment.hpp	/^  string LookupTag(const string &str) const {$/;"	f	class:cppjieba::MixSegment
+LookupTag	PosTagger.hpp	/^  string LookupTag(const string &str, const SegmentTagged& segment) const {$/;"	f	class:cppjieba::PosTagger
+M	HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon1
+MAX_DOUBLE	DictTrie.hpp	/^const double MAX_DOUBLE = 3.14e+100;$/;"	m	namespace:cppjieba
+MAX_WORD_LENGTH	Trie.hpp	/^const size_t MAX_WORD_LENGTH = 512;$/;"	m	namespace:cppjieba
+MIN_DOUBLE	DictTrie.hpp	/^const double MIN_DOUBLE = -3.14e+100;$/;"	m	namespace:cppjieba
+MPSegment	MPSegment.hpp	/^  MPSegment(const DictTrie* dictTrie)$/;"	f	class:cppjieba::MPSegment
+MPSegment	MPSegment.hpp	/^  MPSegment(const string& dictPath, const string& userDictPath = "")$/;"	f	class:cppjieba::MPSegment
+MPSegment	MPSegment.hpp	/^class MPSegment: public SegmentTagged {$/;"	c	namespace:cppjieba
+MakeNodeInfo	DictTrie.hpp	/^  bool MakeNodeInfo(DictUnit& node_info,$/;"	f	class:cppjieba::DictTrie
+MixSegment	MixSegment.hpp	/^  MixSegment(const DictTrie* dictTrie, const HMMModel* model) $/;"	f	class:cppjieba::MixSegment
+MixSegment	MixSegment.hpp	/^  MixSegment(const string& mpSegDict, const string& hmmSegDict, $/;"	f	class:cppjieba::MixSegment
+MixSegment	MixSegment.hpp	/^class MixSegment: public SegmentTagged {$/;"	c	namespace:cppjieba
+Next	PreFilter.hpp	/^  Range Next() {$/;"	f	class:cppjieba::PreFilter
+NextMap	Trie.hpp	/^  typedef unordered_map<TrieKey, TrieNode*> NextMap;$/;"	t	class:cppjieba::TrieNode
+Node	TextRankExtractor.hpp	/^      typedef string Node;$/;"	t	class:cppjieba::TextRankExtractor::WordGraph
+NodeSet	TextRankExtractor.hpp	/^      typedef std::set<Node> NodeSet;$/;"	t	class:cppjieba::TextRankExtractor::WordGraph
+NumbersRule	HMMSegment.hpp	/^  RuneStrArray::const_iterator NumbersRule(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end) const {$/;"	f	class:cppjieba::HMMSegment
+POS_ENG	PosTagger.hpp	/^static const char* const POS_ENG = "eng";$/;"	m	namespace:cppjieba
+POS_M	PosTagger.hpp	/^static const char* const POS_M = "m";$/;"	m	namespace:cppjieba
+POS_X	PosTagger.hpp	/^static const char* const POS_X = "x";$/;"	m	namespace:cppjieba
+PosTagger	PosTagger.hpp	/^  PosTagger() {$/;"	f	class:cppjieba::PosTagger
+PosTagger	PosTagger.hpp	/^class PosTagger {$/;"	c	namespace:cppjieba
+PreFilter	PreFilter.hpp	/^  PreFilter(const unordered_set<Rune>& symbols, $/;"	f	class:cppjieba::PreFilter
+PreFilter	PreFilter.hpp	/^class PreFilter {$/;"	c	namespace:cppjieba
+QuerySegment	QuerySegment.hpp	/^  QuerySegment(const DictTrie* dictTrie, const HMMModel* model)$/;"	f	class:cppjieba::QuerySegment
+QuerySegment	QuerySegment.hpp	/^  QuerySegment(const string& dict, const string& model, const string& userDict = "")$/;"	f	class:cppjieba::QuerySegment
+QuerySegment	QuerySegment.hpp	/^class QuerySegment: public SegmentBase {$/;"	c	namespace:cppjieba
+Range	PreFilter.hpp	/^  struct Range {$/;"	s	class:cppjieba::PreFilter
+ResetSeparators	Jieba.hpp	/^  void ResetSeparators(const string& s) {$/;"	f	class:cppjieba::Jieba
+ResetSeparators	SegmentBase.hpp	/^  bool ResetSeparators(const string& s) {$/;"	f	class:cppjieba::SegmentBase
+Rune	Unicode.hpp	/^typedef uint32_t Rune;$/;"	t	namespace:cppjieba
+RuneStr	Unicode.hpp	/^  RuneStr(): rune(0), offset(0), len(0) {$/;"	f	struct:cppjieba::RuneStr
+RuneStr	Unicode.hpp	/^  RuneStr(Rune r, uint32_t o, uint32_t l)$/;"	f	struct:cppjieba::RuneStr
+RuneStr	Unicode.hpp	/^  RuneStr(Rune r, uint32_t o, uint32_t l, uint32_t unicode_offset, uint32_t unicode_length)$/;"	f	struct:cppjieba::RuneStr
+RuneStr	Unicode.hpp	/^struct RuneStr {$/;"	s	namespace:cppjieba
+RuneStrArray	Unicode.hpp	/^typedef limonp::LocalVector<struct RuneStr> RuneStrArray;$/;"	t	namespace:cppjieba
+RuneStrLite	Unicode.hpp	/^  RuneStrLite(): rune(0), len(0) {$/;"	f	struct:cppjieba::RuneStrLite
+RuneStrLite	Unicode.hpp	/^  RuneStrLite(uint32_t r, uint32_t l): rune(r), len(l) {$/;"	f	struct:cppjieba::RuneStrLite
+RuneStrLite	Unicode.hpp	/^struct RuneStrLite {$/;"	s	namespace:cppjieba
+S	HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon1
+SPECIAL_SEPARATORS	SegmentBase.hpp	/^const char* const SPECIAL_SEPARATORS = " \\t\\n\\xEF\\xBC\\x8C\\xE3\\x80\\x82";$/;"	m	namespace:cppjieba
+STATUS_SUM	HMMModel.hpp	/^  enum {B = 0, E = 1, M = 2, S = 3, STATUS_SUM = 4};$/;"	e	enum:cppjieba::HMMModel::__anon1
+Score	TextRankExtractor.hpp	/^      typedef double Score;$/;"	t	class:cppjieba::TextRankExtractor::WordGraph
+SegmentBase	SegmentBase.hpp	/^  SegmentBase() {$/;"	f	class:cppjieba::SegmentBase
+SegmentBase	SegmentBase.hpp	/^class SegmentBase {$/;"	c	namespace:cppjieba
+SegmentTagged	SegmentTagged.hpp	/^  SegmentTagged() {$/;"	f	class:cppjieba::SegmentTagged
+SegmentTagged	SegmentTagged.hpp	/^class SegmentTagged : public SegmentBase{$/;"	c	namespace:cppjieba
+SequentialLetterRule	HMMSegment.hpp	/^  RuneStrArray::const_iterator SequentialLetterRule(RuneStrArray::const_iterator begin, RuneStrArray::const_iterator end) const {$/;"	f	class:cppjieba::HMMSegment
+SetStaticWordWeights	DictTrie.hpp	/^  void SetStaticWordWeights(UserWordWeightOption option) {$/;"	f	class:cppjieba::DictTrie
+Shrink	DictTrie.hpp	/^  void Shrink(vector<DictUnit>& units) const {$/;"	f	class:cppjieba::DictTrie
+SpecialRule	PosTagger.hpp	/^  const char* SpecialRule(const RuneStrArray& unicode) const {$/;"	f	class:cppjieba::PosTagger
+Tag	Jieba.hpp	/^  void Tag(const string& sentence, vector<pair<string, string> >& words) const {$/;"	f	class:cppjieba::Jieba
+Tag	MPSegment.hpp	/^  bool Tag(const string& src, vector<pair<string, string> >& res) const {$/;"	f	class:cppjieba::MPSegment
+Tag	MixSegment.hpp	/^  bool Tag(const string& src, vector<pair<string, string> >& res) const {$/;"	f	class:cppjieba::MixSegment
+Tag	PosTagger.hpp	/^  bool Tag(const string& src, vector<pair<string, string> >& res, const SegmentTagged& segment) const {$/;"	f	class:cppjieba::PosTagger
+TextRankExtractor	TextRankExtractor.hpp	/^    TextRankExtractor(const Jieba& jieba, const string& stopWordPath) : segment_(jieba.GetDictTrie(), jieba.GetHMMModel()) {$/;"	f	class:cppjieba::TextRankExtractor
+TextRankExtractor	TextRankExtractor.hpp	/^  TextRankExtractor(const DictTrie* dictTrie, $/;"	f	class:cppjieba::TextRankExtractor
+TextRankExtractor	TextRankExtractor.hpp	/^  TextRankExtractor(const string& dictPath, $/;"	f	class:cppjieba::TextRankExtractor
+TextRankExtractor	TextRankExtractor.hpp	/^  class TextRankExtractor {$/;"	c	namespace:cppjieba
+Trie	Trie.hpp	/^  Trie(const vector<Unicode>& keys, const vector<const DictUnit*>& valuePointers)$/;"	f	class:cppjieba::Trie
+Trie	Trie.hpp	/^class Trie {$/;"	c	namespace:cppjieba
+TrieKey	Trie.hpp	/^typedef Rune TrieKey;$/;"	t	namespace:cppjieba
+TrieNode	Trie.hpp	/^  TrieNode(): next(NULL), ptValue(NULL) {$/;"	f	class:cppjieba::TrieNode
+TrieNode	Trie.hpp	/^class TrieNode {$/;"	c	namespace:cppjieba
+UNKNOWN_TAG	DictTrie.hpp	/^const char* const UNKNOWN_TAG = "";$/;"	m	namespace:cppjieba
+Unicode	Unicode.hpp	/^typedef limonp::LocalVector<Rune> Unicode;$/;"	t	namespace:cppjieba
+UserWordWeightOption	DictTrie.hpp	/^  enum UserWordWeightOption {$/;"	g	class:cppjieba::DictTrie
+Viterbi	HMMSegment.hpp	/^  void Viterbi(RuneStrArray::const_iterator begin, $/;"	f	class:cppjieba::HMMSegment
+WeightCompare	DictTrie.hpp	/^  static bool WeightCompare(const DictUnit& lhs, const DictUnit& rhs) {$/;"	f	class:cppjieba::DictTrie
+Word	KeywordExtractor.hpp	/^  struct Word {$/;"	s	class:cppjieba::KeywordExtractor
+Word	TextRankExtractor.hpp	/^    typedef struct _Word {string word;vector<size_t> offsets;double weight;}    Word; \/\/ struct Word$/;"	t	class:cppjieba::TextRankExtractor	typeref:struct:cppjieba::TextRankExtractor::_Word
+Word	Unicode.hpp	/^  Word(const string& w, uint32_t o)$/;"	f	struct:cppjieba::Word
+Word	Unicode.hpp	/^  Word(const string& w, uint32_t o, uint32_t unicode_offset, uint32_t unicode_length)$/;"	f	struct:cppjieba::Word
+Word	Unicode.hpp	/^struct Word {$/;"	s	namespace:cppjieba
+WordGraph	TextRankExtractor.hpp	/^      WordGraph(): d(0.85) {};$/;"	f	class:cppjieba::TextRankExtractor::WordGraph
+WordGraph	TextRankExtractor.hpp	/^      WordGraph(double in_d): d(in_d) {};$/;"	f	class:cppjieba::TextRankExtractor::WordGraph
+WordGraph	TextRankExtractor.hpp	/^    class WordGraph{$/;"	c	class:cppjieba::TextRankExtractor
+WordMap	TextRankExtractor.hpp	/^    typedef std::map<string,Word> WordMap;$/;"	t	class:cppjieba::TextRankExtractor
+WordRange	Unicode.hpp	/^  WordRange(RuneStrArray::const_iterator l, RuneStrArray::const_iterator r)$/;"	f	struct:cppjieba::WordRange
+WordRange	Unicode.hpp	/^struct WordRange {$/;"	s	namespace:cppjieba
+WordWeightMax	DictTrie.hpp	/^    WordWeightMax,$/;"	e	enum:cppjieba::DictTrie::UserWordWeightOption
+WordWeightMedian	DictTrie.hpp	/^    WordWeightMedian,$/;"	e	enum:cppjieba::DictTrie::UserWordWeightOption
+WordWeightMin	DictTrie.hpp	/^    WordWeightMin,$/;"	e	enum:cppjieba::DictTrie::UserWordWeightOption
+_Word	TextRankExtractor.hpp	/^    typedef struct _Word {string word;vector<size_t> offsets;double weight;}    Word; \/\/ struct Word$/;"	s	class:cppjieba::TextRankExtractor
+active_node_infos_	DictTrie.hpp	/^  deque<DictUnit> active_node_infos_; \/\/ must not be vector$/;"	m	class:cppjieba::DictTrie
+addEdge	TextRankExtractor.hpp	/^      void addEdge(Node start,Node end,double weight){$/;"	f	class:cppjieba::TextRankExtractor::WordGraph
+begin	Jieba.hpp	/^    size_t begin;$/;"	m	struct:cppjieba::Jieba::LocWord
+begin	PreFilter.hpp	/^    RuneStrArray::const_iterator begin;$/;"	m	struct:cppjieba::PreFilter::Range
+cppjieba	DictTrie.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	FullSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	HMMModel.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	HMMSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	Jieba.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	KeywordExtractor.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	MPSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	MixSegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	PosTagger.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	PreFilter.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	QuerySegment.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	SegmentBase.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	SegmentTagged.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	TextRankExtractor.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	Trie.hpp	/^namespace cppjieba {$/;"	n
+cppjieba	Unicode.hpp	/^namespace cppjieba {$/;"	n
+cursor_	PreFilter.hpp	/^  RuneStrArray::const_iterator cursor_;$/;"	m	class:cppjieba::PreFilter
+d	TextRankExtractor.hpp	/^      double d;$/;"	m	class:cppjieba::TextRankExtractor::WordGraph
+dictTrie_	FullSegment.hpp	/^  const DictTrie* dictTrie_;$/;"	m	class:cppjieba::FullSegment
+dictTrie_	MPSegment.hpp	/^  const DictTrie* dictTrie_;$/;"	m	class:cppjieba::MPSegment
+dict_trie_	Jieba.hpp	/^  DictTrie dict_trie_;$/;"	m	class:cppjieba::Jieba
+emitProbB	HMMModel.hpp	/^  EmitProbMap emitProbB;$/;"	m	struct:cppjieba::HMMModel
+emitProbE	HMMModel.hpp	/^  EmitProbMap emitProbE;$/;"	m	struct:cppjieba::HMMModel
+emitProbM	HMMModel.hpp	/^  EmitProbMap emitProbM;$/;"	m	struct:cppjieba::HMMModel
+emitProbS	HMMModel.hpp	/^  EmitProbMap emitProbS;$/;"	m	struct:cppjieba::HMMModel
+emitProbVec	HMMModel.hpp	/^  vector<EmitProbMap* > emitProbVec;$/;"	m	struct:cppjieba::HMMModel
+end	Jieba.hpp	/^    size_t end;$/;"	m	struct:cppjieba::Jieba::LocWord
+end	PreFilter.hpp	/^    RuneStrArray::const_iterator end;$/;"	m	struct:cppjieba::PreFilter::Range
+extractor	Jieba.hpp	/^  KeywordExtractor extractor;$/;"	m	class:cppjieba::Jieba
+freq_sum_	DictTrie.hpp	/^  double freq_sum_;$/;"	m	class:cppjieba::DictTrie
+full_seg_	Jieba.hpp	/^  FullSegment full_seg_;$/;"	m	class:cppjieba::Jieba
+graph	TextRankExtractor.hpp	/^      Graph graph;$/;"	m	class:cppjieba::TextRankExtractor::WordGraph
+hmmSeg_	MixSegment.hpp	/^  HMMSegment hmmSeg_;$/;"	m	class:cppjieba::MixSegment
+hmm_seg_	Jieba.hpp	/^  HMMSegment hmm_seg_;$/;"	m	class:cppjieba::Jieba
+idfAverage_	KeywordExtractor.hpp	/^  double idfAverage_;$/;"	m	class:cppjieba::KeywordExtractor
+idfMap_	KeywordExtractor.hpp	/^  unordered_map<string, double> idfMap_;$/;"	m	class:cppjieba::KeywordExtractor
+isNeedDestroy_	FullSegment.hpp	/^  bool isNeedDestroy_;$/;"	m	class:cppjieba::FullSegment
+isNeedDestroy_	HMMSegment.hpp	/^  bool isNeedDestroy_;$/;"	m	class:cppjieba::HMMSegment
+isNeedDestroy_	MPSegment.hpp	/^  bool isNeedDestroy_;$/;"	m	class:cppjieba::MPSegment
+left	Unicode.hpp	/^  RuneStrArray::const_iterator left;$/;"	m	struct:cppjieba::WordRange
+len	Unicode.hpp	/^  uint32_t len;$/;"	m	struct:cppjieba::RuneStr
+len	Unicode.hpp	/^  uint32_t len;$/;"	m	struct:cppjieba::RuneStrLite
+max_weight_	DictTrie.hpp	/^  double max_weight_;$/;"	m	class:cppjieba::DictTrie
+median_weight_	DictTrie.hpp	/^  double median_weight_;$/;"	m	class:cppjieba::DictTrie
+min_weight_	DictTrie.hpp	/^  double min_weight_;$/;"	m	class:cppjieba::DictTrie
+mixSeg_	QuerySegment.hpp	/^  MixSegment mixSeg_;$/;"	m	class:cppjieba::QuerySegment
+mix_seg_	Jieba.hpp	/^  MixSegment mix_seg_;$/;"	m	class:cppjieba::Jieba
+model_	HMMSegment.hpp	/^  const HMMModel* model_;$/;"	m	class:cppjieba::HMMSegment
+model_	Jieba.hpp	/^  HMMModel model_;$/;"	m	class:cppjieba::Jieba
+mpSeg_	MixSegment.hpp	/^  MPSegment mpSeg_;$/;"	m	class:cppjieba::MixSegment
+mp_seg_	Jieba.hpp	/^  MPSegment mp_seg_;$/;"	m	class:cppjieba::Jieba
+next	Trie.hpp	/^  NextMap *next;$/;"	m	class:cppjieba::TrieNode
+nextPos	Trie.hpp	/^  size_t nextPos; \/\/ TODO$/;"	m	struct:cppjieba::Dag
+nexts	Trie.hpp	/^  limonp::LocalVector<pair<size_t, const DictUnit*> > nexts;$/;"	m	struct:cppjieba::Dag
+nodeSet	TextRankExtractor.hpp	/^      NodeSet nodeSet;$/;"	m	class:cppjieba::TextRankExtractor::WordGraph
+offset	Unicode.hpp	/^  uint32_t offset;$/;"	m	struct:cppjieba::RuneStr
+offset	Unicode.hpp	/^  uint32_t offset;$/;"	m	struct:cppjieba::Word
+offsets	KeywordExtractor.hpp	/^    vector<size_t> offsets;$/;"	m	struct:cppjieba::KeywordExtractor::Word
+offsets	TextRankExtractor.hpp	/^    typedef struct _Word {string word;vector<size_t> offsets;double weight;}    Word; \/\/ struct Word$/;"	m	struct:cppjieba::TextRankExtractor::_Word
+operator <<	KeywordExtractor.hpp	/^inline ostream& operator << (ostream& os, const KeywordExtractor::Word& word) {$/;"	f	namespace:cppjieba
+operator <<	TextRankExtractor.hpp	/^  inline ostream& operator << (ostream& os, const TextRankExtractor::Word& word) {$/;"	f	namespace:cppjieba
+operator <<	Unicode.hpp	/^inline std::ostream& operator << (std::ostream& os, const RuneStr& r) {$/;"	f	namespace:cppjieba
+operator <<	Unicode.hpp	/^inline std::ostream& operator << (std::ostream& os, const Word& w) {$/;"	f	namespace:cppjieba
+pInfo	Trie.hpp	/^  const DictUnit * pInfo;$/;"	m	struct:cppjieba::Dag
+ptValue	Trie.hpp	/^  const DictUnit *ptValue;$/;"	m	class:cppjieba::TrieNode
+query_seg_	Jieba.hpp	/^  QuerySegment query_seg_;$/;"	m	class:cppjieba::Jieba
+rank	TextRankExtractor.hpp	/^      void rank(WordMap &ws,size_t rankTime=10){$/;"	f	class:cppjieba::TextRankExtractor::WordGraph
+right	Unicode.hpp	/^  RuneStrArray::const_iterator right;$/;"	m	struct:cppjieba::WordRange
+root_	Trie.hpp	/^  TrieNode* root_;$/;"	m	class:cppjieba::Trie
+rune	Unicode.hpp	/^  Rune rune;$/;"	m	struct:cppjieba::RuneStr
+rune	Unicode.hpp	/^  uint32_t rune;$/;"	m	struct:cppjieba::RuneStrLite
+runestr	Trie.hpp	/^  RuneStr runestr;$/;"	m	struct:cppjieba::Dag
+segment_	KeywordExtractor.hpp	/^  MixSegment segment_;$/;"	m	class:cppjieba::KeywordExtractor
+segment_	TextRankExtractor.hpp	/^    MixSegment segment_;$/;"	m	class:cppjieba::TextRankExtractor
+sentence_	PreFilter.hpp	/^  RuneStrArray sentence_;$/;"	m	class:cppjieba::PreFilter
+startProb	HMMModel.hpp	/^  double startProb[STATUS_SUM];$/;"	m	struct:cppjieba::HMMModel
+statMap	HMMModel.hpp	/^  char statMap[STATUS_SUM];$/;"	m	struct:cppjieba::HMMModel
+static_node_infos_	DictTrie.hpp	/^  vector<DictUnit> static_node_infos_;$/;"	m	class:cppjieba::DictTrie
+stopWords_	KeywordExtractor.hpp	/^  unordered_set<string> stopWords_;$/;"	m	class:cppjieba::KeywordExtractor
+stopWords_	TextRankExtractor.hpp	/^    unordered_set<string> stopWords_;$/;"	m	class:cppjieba::TextRankExtractor
+symbols_	PreFilter.hpp	/^  const unordered_set<Rune>& symbols_;$/;"	m	class:cppjieba::PreFilter
+symbols_	SegmentBase.hpp	/^  unordered_set<Rune> symbols_;$/;"	m	class:cppjieba::SegmentBase
+tag	Trie.hpp	/^  string tag;$/;"	m	struct:cppjieba::DictUnit
+tagger_	MPSegment.hpp	/^  PosTagger tagger_;$/;"	m	class:cppjieba::MPSegment
+tagger_	MixSegment.hpp	/^  PosTagger tagger_;$/;"	m	class:cppjieba::MixSegment
+transProb	HMMModel.hpp	/^  double transProb[STATUS_SUM][STATUS_SUM];$/;"	m	struct:cppjieba::HMMModel
+trie_	DictTrie.hpp	/^  Trie * trie_;$/;"	m	class:cppjieba::DictTrie
+trie_	QuerySegment.hpp	/^  const DictTrie* trie_;$/;"	m	class:cppjieba::QuerySegment
+unicode_length	Unicode.hpp	/^  uint32_t unicode_length;$/;"	m	struct:cppjieba::RuneStr
+unicode_length	Unicode.hpp	/^  uint32_t unicode_length;$/;"	m	struct:cppjieba::Word
+unicode_offset	Unicode.hpp	/^  uint32_t unicode_offset;$/;"	m	struct:cppjieba::RuneStr
+unicode_offset	Unicode.hpp	/^  uint32_t unicode_offset;$/;"	m	struct:cppjieba::Word
+user_dict_single_chinese_word_	DictTrie.hpp	/^  unordered_set<Rune> user_dict_single_chinese_word_;$/;"	m	class:cppjieba::DictTrie
+user_word_default_weight_	DictTrie.hpp	/^  double user_word_default_weight_;$/;"	m	class:cppjieba::DictTrie
+weight	KeywordExtractor.hpp	/^    double weight;$/;"	m	struct:cppjieba::KeywordExtractor::Word
+weight	TextRankExtractor.hpp	/^    typedef struct _Word {string word;vector<size_t> offsets;double weight;}    Word; \/\/ struct Word$/;"	m	struct:cppjieba::TextRankExtractor::_Word
+weight	Trie.hpp	/^  double weight;$/;"	m	struct:cppjieba::Dag
+weight	Trie.hpp	/^  double weight;$/;"	m	struct:cppjieba::DictUnit
+word	Jieba.hpp	/^    string word;$/;"	m	struct:cppjieba::Jieba::LocWord
+word	KeywordExtractor.hpp	/^    string word;$/;"	m	struct:cppjieba::KeywordExtractor::Word
+word	TextRankExtractor.hpp	/^    typedef struct _Word {string word;vector<size_t> offsets;double weight;}    Word; \/\/ struct Word$/;"	m	struct:cppjieba::TextRankExtractor::_Word
+word	Trie.hpp	/^  Unicode word;$/;"	m	struct:cppjieba::DictUnit
+word	Unicode.hpp	/^  string word;$/;"	m	struct:cppjieba::Word
+~DictTrie	DictTrie.hpp	/^  ~DictTrie() {$/;"	f	class:cppjieba::DictTrie
+~FullSegment	FullSegment.hpp	/^  ~FullSegment() {$/;"	f	class:cppjieba::FullSegment
+~HMMModel	HMMModel.hpp	/^  ~HMMModel() {$/;"	f	struct:cppjieba::HMMModel
+~HMMSegment	HMMSegment.hpp	/^  ~HMMSegment() {$/;"	f	class:cppjieba::HMMSegment
+~Jieba	Jieba.hpp	/^  ~Jieba() {$/;"	f	class:cppjieba::Jieba
+~KeywordExtractor	KeywordExtractor.hpp	/^  ~KeywordExtractor() {$/;"	f	class:cppjieba::KeywordExtractor
+~MPSegment	MPSegment.hpp	/^  ~MPSegment() {$/;"	f	class:cppjieba::MPSegment
+~MixSegment	MixSegment.hpp	/^  ~MixSegment() {$/;"	f	class:cppjieba::MixSegment
+~PosTagger	PosTagger.hpp	/^  ~PosTagger() {$/;"	f	class:cppjieba::PosTagger
+~PreFilter	PreFilter.hpp	/^  ~PreFilter() {$/;"	f	class:cppjieba::PreFilter
+~QuerySegment	QuerySegment.hpp	/^  ~QuerySegment() {$/;"	f	class:cppjieba::QuerySegment
+~SegmentBase	SegmentBase.hpp	/^  virtual ~SegmentBase() {$/;"	f	class:cppjieba::SegmentBase
+~SegmentTagged	SegmentTagged.hpp	/^  virtual ~SegmentTagged() {$/;"	f	class:cppjieba::SegmentTagged
+~TextRankExtractor	TextRankExtractor.hpp	/^    ~TextRankExtractor() {$/;"	f	class:cppjieba::TextRankExtractor
+~Trie	Trie.hpp	/^  ~Trie() {$/;"	f	class:cppjieba::Trie
