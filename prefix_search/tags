@@ -1,5 +1,0 @@
-Mmain.cpp	main.cpp	/^int main() {$/
-Trie	trie.cpp	/^Trie::Trie(){$/
-cmake_minimum_required	CMakeLists.txt	/^cmake_minimum_required(VERSION 3.16)$/
-insertStr	trie.cpp	/^void Trie::insertStr(const std::string& ins_str) {/
-loadData	trie.cpp	/^void Trie::loadData(const std::vector<std::string>/
